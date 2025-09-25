@@ -1,0 +1,18 @@
+/* overrides.css - site-specific overrides loaded after theme CSS */
+/* Make navbar transparent when the theme sets .bg-transparent to white (safe, reversible) */
+.navbar.bg-transparent,
+.navbar-modern-inner.bg-transparent,
+.navbar-full-screen-menu-inner.bg-transparent {
+	background-color: transparent !important;
+	box-shadow: none !important;
+}
+
+/* Also ensure header-transparent variants don't force a white background */
+.header-transparent .navbar.bg-transparent {
+	background-color: transparent !important;
+}
+
+/* If needed, remove any forced navbar-collapse background when shown */
+.navbar.bg-transparent .navbar-collapse.show {
+	background-color: transparent !important;
+}

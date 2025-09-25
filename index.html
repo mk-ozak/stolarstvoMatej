@@ -1,23 +1,378 @@
-<!DOCTYPE html>
-<html lang="en">
+﻿<!DOCTYPE html>
+<html class="no-js" lang="en">
 	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Stolarstvo Matej</title>
-		<link rel="icon" type="image/x-icon" href="favicon.ico" />
-		<link rel="stylesheet" href="styles.css" />
+		<title>Stolárstvo MATEJ - Vytvárame nábytok na mieru</title>
+		<meta charset="utf-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="author" content="Peter Kučák" />
+		<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+		<meta name="description" content="Stolárstvo MATEJ - Vytvárame nábytok na mieru" />
+		<!-- favicon icon -->
+		<link rel="shortcut icon" href="img/favicon.png" />
+		<link rel="apple-touch-icon" href="img/apple-touch-icon-57x57.png" />
+		<link rel="apple-touch-icon" sizes="72x72" href="img/apple-touch-icon-72x72.png" />
+		<link rel="apple-touch-icon" sizes="114x114" href="img/apple-touch-icon-114x114.png" />
+		<!-- google fonts preconnect -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<!-- style sheets and font icons  -->
+		<link rel="stylesheet" href="css/vendors.min.css" />
+		<link rel="stylesheet" href="css/icon.min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+		<link rel="stylesheet" href="css/responsive.css" />
+		<link rel="stylesheet" href="css/basic.css" />
+		<link rel="stylesheet" href="css/overrides.css" />
 	</head>
-	<body>
+	<body data-mobile-nav-trigger-alignment="right" data-mobile-nav-style="modern" data-mobile-nav-bg-color="#2E3844" class="custom-cursor">
+		<!-- start cursor -->
+		<div class="cursor-page-inner">
+			<div class="circle-cursor circle-cursor-inner"></div>
+			<div class="circle-cursor circle-cursor-outer"></div>
+		</div>
+		<!-- end cursor -->
+		<!-- start header -->
 		<header>
-			<h1>Vitajte na stránke Stolarstvo Matej - Peter Kučák</h1>
+			<!-- start navigation -->
+			<nav class="navbar navbar-expand-lg header-transparent bg-transparent border-color-transparent-white-light disable-fixed">
+				<div class="container-fluid">
+					<div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
+						<a class="navbar-brand" href="#">
+							<img src="img/logo-white.png" data-at2x="img/logo-white@2x.png" alt="" class="default-logo" />
+							<img src="img/logo-black.png" data-at2x="img/logo-black@2x.png" alt="" class="alt-logo" />
+							<img src="img/logo-black.png" data-at2x="img/logo-black@2x.png" alt="" class="mobile-logo" />
+						</a>
+					</div>
+					
+					<div class="col-auto col-xxl-3 col-lg-2 text-end d-none d-sm-flex">
+						<div class="header-icon">
+							<div class="d-none d-xxl-inline-block me-25px lg-me-0">
+								<a href="tel:+421940922699" class="widget-text text-white-hover fs-17">
+									<i class="feather icon-feather-phone-call me-10px"></i>
+									+421 940 922 699
+								</a>
+							</div>
+					</div>
+				</div>
+			</nav>
+			<!-- end navigation -->
 		</header>
-		<main>
-			<section>
-				<h2>WEB SA PRIPRAVUJE</h2>
-			</section>
-		</main>
-		<footer>
-			<p>&copy; 2025 Stolarstvo Matej</p>
+		<!-- end header -->
+		<!-- start banner slider -->
+		<section class="pb-0 top-space-padding bg-dark-gray full-screen border-top position-relative md-h-700px sm-h-600px sm-pb-70px" data-parallax-background-ratio="0.3" style="background-image: url('img/home-banner.jpg')">
+			<div class="position-absolute left-0px top-0px d-none d-lg-inline-block" data-anime='{ "el": "childs", "translateY": [100, 0], "opacity": [0,1], "duration": 600, "delay": 600, "staggervalue": 300, "easing": "easeOutQuad" }'>
+				<img src="img/demo-beauty-salon-home-banner-bg.png" data-bottom-top="transform: translateY(-150px)" data-top-bottom="transform: translateY(150px)" alt="" />
+			</div>
+
+			<div class="container h-100">
+				<div class="row align-items-center h-100">
+					<div class="col-md-6 position-relative" data-anime='{ "el": "childs", "translateY": [30, 1], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
+						<div class="alt-font fs-120 text-white ls-minus-3px lh-120 mb-25px lg-fs-80 xs-fs-60 xs-lh-80 lg-lh-100">Stolárstvo <br> MATEJ</div>
+						<div class="text-light-medium-gray fs-20 w-60 mb-35px xs-mb-25px lg-w-75 md-w-100 sm-w-70 xs-w-90">Peter Kučák <br> +421 940 922 699</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end banner slider -->
+		
+		<!-- start banner slider -->
+		<section class="p-0">
+			<div class="container-fluid p-0">
+				<div class="row align-items-center g-0" style="padding-top: 50px; padding-bottom: 100px">
+					<div class="col-xl-6 col-lg-6 position-relative top-minus-2px md-mb-30px" data-anime='{ "effect": "slide", "color": "#f2e0dc", "direction":"lr", "easing": "easeOutQuad", "duration": 600, "delay":500}'>
+						<img src="img/popis1.jpg" class="border-radius-rb-50px w-100" alt="" />
+					</div>
+					<div class="col-xl-4 col-lg-6 offset-xl-1 lg-ps-15px lg-pe-15px text-center text-lg-start" data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 300, "staggervalue": 300, "easing": "easeOutQuad" }'>
+						<span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 mb-10px ls-1px d-inline-block">O nás</span>
+						<h2 class="alt-font fw-400 text-dark-gray w-75 xl-w-90 lg-w-100 ls-minus-1px">Stolárstvo Matej</h2>
+						<p class="mb-30px w-60 xl-w-90 lg-w-100 lg-mb-25px">Venujeme sa stolárskej výrobe a službám. Našim zákazníkom ponúkame kvalitné a profesionálne služby.</p>
+					</div>
+					
+				</div>
+			</div>
+		</section>
+		<!-- end banner slider -->
+
+		
+
+		<!--! GALERY ======================================================================================================== -->
+		<section class="p-0">
+			<div class="container overlap-gap-section">
+				<div class="row justify-content-center align-items-center mb-6" data-anime='{ "el": "childs", "translateY": [30, 1], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue":200, "easing": "easeOutQuad" }'>
+					<div class="col-auto pe-25px border-2 border-end border-color-dark-gray sm-border-end-0 sm-pe-15px">
+						<span class="fs-16 text-uppercase text-gradient-san-blue-new-york-red fw-700 ls-1px">FOTOGALÉRIA</span>
+					</div>
+					<div class="col-12 col-md-auto ps-25px sm-ps-15px text-center">
+						<h3 class="alt-font fw-400 text-dark-gray ls-minus-1px mb-0">Naše realizácie</h3>
+					</div>
+				</div>
+			</div>
+			<div class="container-fluid">
+				<div class="row">
+					<div class="col px-0">
+						<ul class="image-gallery-style-04 gallery-wrapper grid grid-4col xxl-grid-4col xl-grid-4col lg-grid-4col md-grid-3col sm-grid-1col xs-grid-1col">
+							<li class="grid-sizer"></li>
+							<!-- start gallery item -->
+							<li class="grid-item grid-item-double transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/01.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 1">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/01.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/02.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 2">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/02.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/03.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 3">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/03.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/04.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 4">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/04.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item grid-item-double gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/05.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 5">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/05.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/06.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 6">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/06.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item grid-item-double transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/07.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 7">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/07.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/08.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 8">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/08.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/09.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 9">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/09.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/10.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 10">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/10.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item grid-item-double gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/11.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 11">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/11.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+							<!-- start gallery item -->
+							<li class="grid-item gallery-box transition-inner-all">
+								<div class="gallery-box">
+									<a href="img/12.jpg" data-group="lightbox-group-gallery-item-4" title="Galéria - foto 12">
+										<div class="position-relative gallery-image bg-dark-gray" style="background: #434343">
+											<img src="img/12.jpg" alt="" />
+											<div class="d-flex align-items-center justify-content-center position-absolute top-0px left-0px w-100 h-100 gallery-hover move-left-right">
+												<div class="d-flex align-items-center justify-content-center w-70px h-70px rounded-circle border border-2 border-color-transparent-white-very-light">
+													<i class="feather icon-feather-search text-white icon-extra-medium"></i>
+												</div>
+											</div>
+										</div>
+									</a>
+								</div>
+							</li>
+							<!-- end gallery item -->
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end section -->
+
+		<!--! FOOTER -->
+		<footer class="p-0 bg-gradient-blue-ironstone-brown">
+			<div class="container">
+				<div class="row justify-content-center pt-55px pb-55px sm-pt-40px sm-pb-40px">
+					<!-- start footer column -->
+					<div class="col-lg-3 col-md-12 col-sm-6 last-paragraph-no-margin text-center text-sm-start text-md-center text-lg-start md-mb-30px">
+						<img src="img/logo-white.png" data-at2x="img/logo-white@2x.png" alt="" />
+					</div>
+					<!-- end footer column -->
+					<!-- start footer column -->
+					<div class="col-lg-3 col-md-4 col-sm-6 sm-mb-30px last-paragraph-no-margin text-center text-sm-start">
+						<span class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600">Adresa:</span>
+						<p class="lh-30 w-80 text-white lg-w-100">Čadca - Raková</p>
+					</div>
+					<!-- end footer column -->
+					<!-- start footer column -->
+					<div class="col-lg-3 col-md-4 col-sm-6 xs-mb-30px last-paragraph-no-margin text-center text-sm-start">
+						<span class="d-block text-base-color fs-15 ls-1px mb-5px text-uppercase fw-600">Kontakt:</span>
+						<a href="tel:+421940922699" class="text-white lh-30">+421 940 922 699</a>
+						<br />
+						<a href="mailto:info@stolarstvomatej.sk" class="text-white">info@stolarstvomatej.sk</a>
+					</div>
+					<!-- end footer column -->
+					<!-- start footer column -->
+					<div class="col-lg-3 col-md-4 col-sm-6 last-paragraph-no-margin text-center text-sm-start">
+						<span class="d-block text-base-color fs-15 ls-1px mb-10px text-uppercase fw-600">FACEBOOK</span>
+						<div class="elements-social social-icon-style-09">
+							<ul class="medium-icon light">
+								<li>
+									<a class="facebook" href="https://www.facebook.com/" target="_blank">
+										<i class="fa-brands fa-facebook-f"></i>
+										<span></span>
+									</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<!-- end footer column -->
+				</div>
+			</div>
+			<div class="pt-20px pb-20px border-top border-color-transparent-white-light">
+				<div class="container">
+					<div class="row align-items-center">
+						<div class="col-xxl-4 col-lg-5 fs-16 last-paragraph-no-margin text-white text-center text-lg-start">
+							<p>&copy; 2025 Stolárstvo MATEJ</p>
+						</div>
+					</div>
+				</div>
+			</div>
 		</footer>
+		<!-- end footer -->
+		<!-- start scroll progress -->
+		<div class="scroll-progress d-none d-xxl-block">
+			<a href="#" class="scroll-top" aria-label="scroll">
+				<span class="scroll-text">Scroll</span>
+				<span class="scroll-line"><span class="scroll-point"></span></span>
+			</a>
+		</div>
+		<!-- end scroll progress -->
+		<!-- javascript libraries -->
+		<script type="text/javascript" src="js/jquery.js"></script>
+		<script type="text/javascript" src="js/vendors.min.js"></script>
+		
+		<script type="text/javascript" src="js/main.js"></script>
 	</body>
 </html>
